@@ -26,6 +26,7 @@
     font-family: 'Monomaniac One';
     font-size: 120px;
     margin: 0;
+    white-space: nowrap;
 }
 
 .custom-row-text p {
