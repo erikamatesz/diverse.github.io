@@ -35,13 +35,13 @@
 
 .column-part {
     display: flex;
-    flex-direction: row; /* Change to row to create two columns */
+    flex-direction: row;
     align-items: center;
     text-align: center;
 }
 
 .icon-column {
-    margin-right: 10px; /* Adjust the spacing between the icon and text columns */
+    margin-right: 10px;
 }
 
 .column-part img {
@@ -51,6 +51,6 @@
 
 .text-column {
     width: 200px;
-    text-align: left; /* Align text to the left */
-    word-wrap: break-word; /* Allow text to break by word */
+    text-align: left;
+    word-wrap: break-word;
 }

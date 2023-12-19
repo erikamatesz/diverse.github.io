@@ -61,7 +61,7 @@
     .card-image {
         width: 50% !important;
         margin-top: 450px !important;
-        margin-left: 80px;
+        margin-left: 90px;
     }
 
     .yeeey-image-container {
@@ -115,6 +115,25 @@
         margin-left: -160px;
         font-size: 8px;
         font-weight: 300;
+    }
+
+    .section5 { 
+        font-size: 18px !important;
+    }
+
+    .icon-column {
+        margin-right: 10px;
+    }
+    
+    .column-part img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .text-column {
+        width: 200px;
+        text-align: left;
+        word-wrap: break-word;
     }
 
 }

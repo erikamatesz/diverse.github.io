@@ -117,4 +117,23 @@
         font-weight: 300;
     }
 
+    .section5 { 
+        font-size: 18px !important;
+    }
+
+    .icon-column {
+        margin-right: 10px;
+    }
+    
+    .column-part img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .text-column {
+        width: 200px;
+        text-align: left;
+        word-wrap: break-word;
+    }
+
 }
