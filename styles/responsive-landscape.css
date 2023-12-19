@@ -1,8 +1,8 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) and (orientation: landscape) {
 
     .yellowSection1 {
         background-image: none !important;
-        height: 500px !important;
+        height: 650px !important;
     }
 
     .logo img {
@@ -45,12 +45,12 @@
     }
 
     .text-container p {
-        font-size: 20px !important;
+        font-size: 35px !important;
         margin-left: 30px;
     }
 
     .text-container p:nth-child(2) {
-        font-size: 30px !important;
+        font-size: 45px !important;
         margin-top: -10px !important;
     }
 
@@ -59,9 +59,9 @@
     }
 
     .card-image {
-        width: 75% !important;
-        margin-top: 320px !important;
-        margin-left: 20px;
+        width: 50% !important;
+        margin-top: 450px !important;
+        margin-left: 80px;
     }
 
     .yeeey-image-container {
