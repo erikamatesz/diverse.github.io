@@ -1,0 +1,31 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+p { 
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.center img {
+    width: 200px;
+    display: inline-block;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}

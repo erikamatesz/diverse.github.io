@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #000;
+}
+
+header {
+    background-color: #EBFF00;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 15%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: -20px;
+}
+
+.line {
+    flex: 80%;
+    display: flex;
+    z-index: 1000;
+}
+
+.line img { 
+    width: 94%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.download-button {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.download-button img {
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.access-button { 
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.access-button img {
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 40px;
+}

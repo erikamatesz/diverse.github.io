@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+
+    .yellowSection1 {
+        background-image: none !important;
+        height: 500px !important;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .access-button img { 
+        width: 50%;
+        height: auto;
+        margin-left: 60px;
+    }
+
+    .download-button img { 
+        width: 70%;
+        height: auto;
+        margin-right: -160px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .yellowSection1 div {
+        margin-left: 0;
+    }
+
+    .yellowSection1 div p {
+        font-size: 36px;
+        margin-top: -10px;
+    }
+
+    .yellowSection1 div p:nth-child(2) {
+        font-size: 60px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        margin-right: 130px;
+    }
+
+    .text-container p {
+        font-size: 20px !important;
+        margin-left: 30px;
+    }
+
+    .text-container p:nth-child(2) {
+        font-size: 30px !important;
+        margin-top: -10px !important;
+    }
+
+    .union-image {
+        display: none;
+    }
+
+    .card-image {
+        width: 75% !important;
+        margin-top: 320px !important;
+        margin-left: 20px;
+    }
+
+    .yeeey-image-container {
+        width: 60%;
+        margin-bottom: 100px;
+        text-align: left;
+    }
+
+    .yeeey-image {
+        margin-top: 40px !important;
+        margin-left: 20px !important;
+        width: 250px !important;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 20px !important;
+        margin-top: -30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .coluna {
+        width: 90%;
+        margin-bottom: 10px;
+        font-size: 16px !important;
+        text-transform: uppercase;
+        line-height: normal;
+        text-align: left;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .coluna p { 
+        margin-top: 8px;
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+
+    .floating-image { 
+        display: none;
+    }
+
+    .developed-text { 
+        margin-top: 50px;
+        margin-left: -160px;
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+}

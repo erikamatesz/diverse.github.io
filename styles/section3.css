@@ -1,0 +1,54 @@
+.section3 {
+    background-image: url('../assets/balls-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-left: 500px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.custom-row, .custom-row-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: flex-start;
+}
+
+.custom-row p {
+    font-family: 'Monomaniac One';
+    font-size: 120px;
+    margin: 0;
+}
+
+.custom-row-text p {
+    font-family: 'Inter';
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.custom-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-col img {
+    width: 160px;
+    margin-top: -15px;
+}
+
+.custom-col p {
+    margin-top: -70px;
+    margin-right: 120px;
+}
+
+.custom-row {
+    margin-bottom: 0;
+}

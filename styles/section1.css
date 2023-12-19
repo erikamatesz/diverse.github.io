@@ -1,0 +1,60 @@
+.yellowSection1 {
+    background-color: #EBFF00;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 800px;
+    position: relative;
+    background-image: url('../assets/cellphone.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.text-container {
+    font-family: 'Orelega One', sans-serif;
+    color: #000;
+    font-size: 95px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.text-container p:nth-child(2) {
+    font-size: 134px;
+    margin-top: -40px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.union-image {
+    width: 90px;
+    height: 90px;
+    margin-top: 280px;
+    margin-left: 100px;
+    margin-right: 35px;
+}
+
+.card-image {
+    width: 350px;
+    margin-top: 680px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.union-image,
+.card-image {
+    z-index: 1;
+}
