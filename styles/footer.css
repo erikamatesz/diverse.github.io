@@ -157,8 +157,7 @@ footer a:hover {
 
 .social-networks {
     display: flex;
-    margin-right: 150px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .social-icon {
