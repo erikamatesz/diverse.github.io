@@ -106,8 +106,19 @@
         font-weight: 400;
     }
 
+    .section4 { 
+        height: 400px !important;
+    }
+
     .floating-image { 
         display: none;
+    }
+
+    .fixed-image { 
+        width: 85% !important;
+        margin: 230px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 
     .developed-text { 
@@ -170,6 +181,23 @@
     .custom-col img {
         width: 80px !important;
         margin-top: 0px !important;
+    }
+
+    .footer-container:last-child .footer-row {
+        margin-left: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 20px !important;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-container:last-child .footer-row .address-text {
+        margin: 0 !important; 
+        padding: 0 !important;
+        text-align: center;
+        font-size: 10px !important; 
     }
 
 }
