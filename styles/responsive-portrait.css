@@ -54,7 +54,7 @@
 
     .fixed-image {
         width: 85% !important;
-        margin: 48vw 0 !important;
+        margin: 50vw 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
@@ -70,7 +70,7 @@
 
 
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 780px) and (orientation: portrait) {
 
     .yellowSection1 {
         background-image: none !important;
