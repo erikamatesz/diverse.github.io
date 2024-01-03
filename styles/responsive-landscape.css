@@ -39,9 +39,17 @@
         display: none;
     }
 
+    .section4{
+        height: 95vw !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
     .fixed-image {
         width: 85% !important;
-        margin: 230px 0 !important;
+        margin: 350px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
