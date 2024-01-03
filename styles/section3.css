@@ -17,7 +17,7 @@
 
 .custom-row, .custom-row-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 5px;
     align-items: flex-start;
 }
