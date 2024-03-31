@@ -24,3 +24,7 @@
     margin-left: 720px;
     margin-right: 50px;
 }
+
+.responsive-card-image { 
+    display: none;
+}

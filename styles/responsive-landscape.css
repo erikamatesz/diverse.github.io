@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1250px) and (orientation: landscape) {
+    .access-button img {
+        display: none;
+    }
+
     .custom-col { 
         width: 100%;
     }
@@ -35,7 +39,11 @@
         padding-right: 0 !important;
     }
 
-    .floating-image {
+    .floating-image { 
+        display: none;
+    }
+
+    .fixed-image { 
         display: none;
     }
 
@@ -47,7 +55,7 @@
         justify-content: center;
     }
 
-    .fixed-image {
+    .responsive-card-image {
         width: 85% !important;
         margin: 350px 0 !important;
         margin-left: 20px !important;
@@ -209,6 +217,10 @@
     }
 
     .floating-image { 
+        display: none;
+    }
+
+    .fixed-image { 
         display: none;
     }
 

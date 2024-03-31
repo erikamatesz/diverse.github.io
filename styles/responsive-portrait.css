@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1250px) and (orientation: portrait) {
+    .access-button img {
+        display: none;
+    }
+    
     .custom-col { 
         width: 100%;
     }
@@ -10,6 +14,8 @@
     .custom-row-text p {
         font-size: 18px !important;
         margin-top: 30px !important;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px;
     }
 
     .col-a { 
@@ -31,11 +37,10 @@
 
 
 @media only screen and (max-width: 1000px) and (orientation: portrait) {
-    .section3{
+    .section3 {
         padding-left: 0;
         padding-right: 0;
     }
-
 
     #section4 {
         background-color: #EBFF00;
@@ -48,13 +53,17 @@
         justify-content: flex-start;
     }
 
-    .floating-image {
+    .floating-image { 
         display: none;
     }
 
-    .fixed-image {
+    .fixed-image { 
+        display: none;
+    }
+
+    .responsive-card-image {
         width: 85% !important;
-        margin: 50vw 0 !important;
+        margin: 350px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
@@ -66,9 +75,6 @@
         text-align: center;
     }
 }
-
-
-
 
 @media only screen and (max-width: 780px) and (orientation: portrait) {
 
@@ -184,6 +190,10 @@
     }
 
     .floating-image { 
+        display: none;
+    }
+
+    .fixed-image { 
         display: none;
     }
 
