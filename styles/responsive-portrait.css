@@ -62,11 +62,14 @@
     }
 
     .responsive-card-image {
+        display: block !important;
         width: 85% !important;
-        margin: 350px 0 !important;
+        height: 80% !important;
+        margin: 440px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
+
 }
 
 @media only screen and (max-width: 1050px) and (orientation: portrait) {
