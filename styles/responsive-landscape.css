@@ -259,6 +259,15 @@
         padding-bottom: 30px;
     }
 
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 370px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
     .custom-col { 
         width: 100%;
     }
@@ -288,4 +297,15 @@
         margin-top: 0px !important;
     }
 
+}
+
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 200px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
 }

@@ -279,4 +279,39 @@
         font-size: 10px !important; 
     }
 
+
+}
+
+@media only screen and (max-width: 680px) and (orientation: portrait) {
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 320px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 240px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) and (orientation: portrait) {
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 220px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
 }
