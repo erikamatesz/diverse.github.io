@@ -65,6 +65,7 @@
     font-size: 32px;
     text-transform: uppercase;
     line-height: normal;
+    text-align: left;
 }
 
 .coluna p { 

@@ -1,6 +1,17 @@
 @media only screen and (max-width: 1250px) and (orientation: landscape) {
-    .access-button img {
+    
+    .download-button img {
         display: none;
+    }
+    
+    .line { 
+        height: 0px;
+    }
+
+    .access-button img { 
+        width: 45%;
+        height: auto;
+        margin-left: 100px;
     }
 
     .custom-col { 
@@ -14,6 +25,13 @@
     .custom-row-text p {
         font-size: 18px !important;
         margin-top: 30px !important;
+        background-color: white;
+        background-color: #fff;
+        border: 4px solid #000;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 0px 0px #000;
+        margin-bottom: 100px;
     }
 
     .col-a { 
@@ -66,6 +84,21 @@
 }
 
 @media only screen and (max-width: 1050px) and (orientation: landscape) {
+
+    .text-container p {
+        font-size: 45px !important;
+        margin-left: 30px;
+    }
+
+    .text-container p:nth-child(2) {
+        font-size: 65px !important;
+        margin-top: -10px !important;
+    }
+
+    .image-wrapper { 
+        margin-top: -100px !important;
+    }
+
     .caixa .linha {
         flex-direction: column;
         text-align: center;
@@ -110,7 +143,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 800px) and (orientation: landscape) {
 
     .yellowSection1 {
         background-image: none !important;
@@ -125,9 +158,9 @@
     }
 
     .access-button img { 
-        width: 50%;
+        width: 35%;
         height: auto;
-        margin-left: 60px;
+        margin-left: 120px;
     }
 
     .download-button img { 
@@ -137,7 +170,7 @@
     }
 
     .line {
-        display: none;
+        display: none !important;
     }
 
     .yellowSection1 div {
@@ -263,7 +296,7 @@
         display: block !important;
         width: 85% !important;
         height: 80% !important;
-        margin: 370px 0 !important;
+        margin: 350px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
@@ -300,11 +333,18 @@
 }
 
 @media only screen and (max-width: 680px) and (orientation: landscape) {
+    .access-button img { 
+        width: 30%;
+        height: auto;
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+
     .responsive-card-image {
         display: block !important;
         width: 85% !important;
         height: 80% !important;
-        margin: 200px 0 !important;
+        margin-top: 350px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
