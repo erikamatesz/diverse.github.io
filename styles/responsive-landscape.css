@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1250px) and (orientation: landscape) {
+/* @media only screen and (max-width: 1250px) and (orientation: landscape) {
     
     .download-button img {
         display: none;
@@ -22,7 +22,7 @@
         font-size: 50px !important;
     }
     
-    .custom-row-text p {
+    /* .custom-row-text p {
         font-size: 18px !important;
         margin-top: 30px !important;
         background-color: white;
@@ -32,9 +32,9 @@
         box-sizing: border-box;
         box-shadow: 8px 8px 0px 0px #000;
         margin-bottom: 100px;
-    }
+    } */
 
-    .col-a { 
+    /* .col-a { 
         width: 60px;
     }
 
@@ -49,9 +49,9 @@
         width: 80px !important;
         margin-top: 0px !important;
     }
-}
+} */
 
-@media only screen and (max-width: 900px) and (orientation: landscape) {
+/* @media only screen and (max-width: 900px) and (orientation: landscape) {
     .section3{
         padding-left: 0 !important;
         padding-right: 0 !important;
@@ -105,7 +105,7 @@
     }
 }
 
-@media only screen and (max-width: 840px) and (orientation: landscape) {
+/* @media only screen and (max-width: 840px) and (orientation: landscape) {
     .section3 {
         padding-left: 210px !important;
         padding-right: 10px !important;
@@ -141,9 +141,9 @@
         width: 80px !important;
         margin-top: 0px !important;
     }
-}
+} */
 
-@media only screen and (max-width: 800px) and (orientation: landscape) {
+/* @media only screen and (max-width: 800px) and (orientation: landscape) {
 
     .yellowSection1 {
         background-image: none !important;
@@ -347,5 +347,1586 @@
         margin-top: 350px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
+    }
+} */
+
+/* iPad */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+    .text-container p {
+        font-size: 80px !important;
+        margin-left: -80px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 100px !important;
+        color: black;
+        margin-left: 50px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -40px !important;
+    }
+
+    .card-image {
+        width: 380px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .floating-image {
+        width: 700px;
+        height: auto;
+        margin: 0;
+        margin-left: -40px !important;
+    }
+
+    .fixed-image { 
+        margin-left: 600px !important;
+        margin-right: 80px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 250px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 18px !important;
+        margin-top: 30px !important;
+        margin-left: 250px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 80px !important;
+        margin-top: 0px !important;
+        margin-left: 250px !important;
+    }
+}
+
+/* iPhone X */
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -240px !important;
+        margin-left: 60px !important;
+    }
+
+    .card-image {
+        width: 310px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 230px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+        margin-left: 230px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 80px !important;
+        margin-top: 0px !important;
+        margin-left: 225px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 80% !important;
+        margin-left: 60px !important;
+        margin-right: 20px !important;
+        margin-top: 400px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        margin-left: 100px;
+        width: 280px;
+        height: auto;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+
+    .yellowSection1 { 
+        background-image: none !important;
+    }
+
+    .line { 
+        display: none;
+    }
+
+    .download-button { 
+        display: none;
+    }
+
+    .access-button img { 
+        width: 18% !important;
+        height: auto;
+        margin-left: 360px !important;
+        margin-top: 40px !important;
+    }
+
+    .text-container p {
+        font-size: 20px !important;
+        margin-left: 160px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+
+    .card-image {
+        width: 280px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 230px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+        margin-left: 230px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 80px !important;
+        margin-top: 0px !important;
+        margin-left: 225px !important;
+    }
+
+    .second3 { 
+        height: 500px !important;
+    }
+
+    .section4 { 
+        height: 500px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 70% !important;
+        margin-left: 120px !important;
+        margin-right: 20px !important;
+        margin-top: 250px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 160px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: 60px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -20px !important;
+        margin-left: 30px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 42px !important;
+        margin-left: 230px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 15px !important;
+        margin-top: 20px !important;
+        margin-left: 240px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 65px !important;
+        margin-top: 0px !important;
+        margin-left: 225px !important;
+    }
+
+    .section4 { 
+        height: 430px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 70% !important;
+        margin-left: 100px !important;
+        margin-right: 20px !important;
+        margin-top: 250px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 60px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: 60px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -20px !important;
+        margin-left: -10px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 52px !important;
+        margin-left: 20px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 15px !important;
+        margin-top: 10px !important;
+        margin-left: 20px !important;
+        background-color: #fff;
+        border: 4px solid #000;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 0px 0px #000;
+        margin-bottom: 100px;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 78px !important;
+        margin-top: 0px !important;
+        margin-left: 20px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 400px !important;
+    }
+
+    .section4 { 
+        height: 350px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 70% !important;
+        margin-left: 100px !important;
+        margin-right: 20px !important;
+        margin-top: 200px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 60px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 620px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: -80px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -240px !important;
+        margin-left: 60px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 60px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 16px !important;
+        margin-top: 10px !important;
+        margin-left: 250px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 78px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 360px !important;
+    }
+
+    .section4 { 
+        height: 500px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 150px !important;
+        margin-right: 20px !important;
+        margin-top: 260px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: -40px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 731px) and (orientation: landscape) {
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: 60px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -30px !important;
+        margin-left: 80px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 60px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 16px !important;
+        margin-top: 10px !important;
+        margin-left: 250px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 78px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 360px !important;
+    }
+
+    .section4 { 
+        height: 450px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 150px !important;
+        margin-right: 20px !important;
+        margin-top: 260px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 60px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+/* iPhone 6/7/8 */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+
+    .yellowSection1 { 
+        background-image: none !important;
+    }
+
+    .access-button img { 
+        width: 28%;
+        height: auto;
+        margin-left: 260px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: 60px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -30px !important;
+        margin-left: 80px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        height: 500px !important;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 14px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 70px !important;
+        margin-top: 5px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section4 { 
+        height: 450px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 150px !important;
+        margin-right: 20px !important;
+        margin-top: 260px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 60px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+
+    .access-button img { 
+        width: 28%;
+        height: auto;
+        margin-left: 260px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: 60px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -30px !important;
+        margin-left: 80px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 15px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 70px !important;
+        margin-top: 5px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 360px !important;
+    }
+
+    .section4 { 
+        height: 450px !important;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 150px !important;
+        margin-right: 20px !important;
+        margin-top: 260px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 60px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 914px) and (orientation: landscape) {
+
+    .access-button img { 
+        width: 35%;
+        height: auto;
+        margin-left: 100px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .yellowSection1 { 
+        height: 600px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: -80px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -260px !important;
+        margin-left: 60px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 17px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 70px !important;
+        margin-top: 5px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 340px !important;
+    }
+
+    .section4 { 
+        height: 550px !important;
+    }
+
+    .fixed-image { 
+        display: none;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 150px !important;
+        margin-right: 20px !important;
+        margin-top: 300px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: -40px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 853px) {
+
+    .access-button img { 
+        width: 35%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .logo img {
+        width: 140px !important;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .yellowSection1 { 
+        height: 780px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: -80px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: 460px !important;
+        margin-left: 60px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 17px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 70px !important;
+        margin-top: 5px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 340px !important;
+    }
+
+    .section4 { 
+        height: 550px !important;
+    }
+
+    .fixed-image { 
+        display: none;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 50% !important;
+        margin-left: 180px !important;
+        margin-right: 20px !important;
+        margin-top: 300px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: -40px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+
+    .access-button img { 
+        width: 50%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .logo img {
+        width: 140px !important;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .yellowSection1 { 
+        height: 700px !important;
+    }
+
+    .text-container p {
+        font-size: 40px !important;
+        margin-left: -80px !important;
+    }
+    
+    .second-line-text p {
+        font-family: 'Orelega One', sans-serif;
+        font-size: 60px !important;
+        color: black;
+        margin-left: 60px !important;
+        margin-top: -20px !important;
+    }
+    
+    .image-wrapper { 
+        margin-top: -160px !important;
+        margin-left: 60px !important;
+    }
+
+    .card-image {
+        width: 340px !important;
+        height: auto;
+    }
+    
+    .caixa .linha {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa { 
+        width: 70% !important;
+    }
+
+    .union-image { 
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+
+    .fixed-image { 
+        margin-top: -30px !important;
+        margin-left: 300px !important;
+        margin-right: 80px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .section3 {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .custom-col { 
+        width: 100%;
+    }
+
+    .custom-row p {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    
+    .custom-row-text p {
+        font-size: 17px !important;
+        margin-top: 10px !important;
+        margin-left: 260px !important;
+    }
+
+    .col-a { 
+        width: 60px;
+    }
+
+    .col-b { 
+        margin-top: 55px;
+        margin-left: 20px;
+        white-space: nowrap;
+        width: 600px;
+    }
+
+    .custom-col img {
+        width: 70px !important;
+        margin-top: 5px !important;
+        margin-left: 260px !important;
+        margin-right: 10px !important;
+    }
+
+    .section3 { 
+        height: 340px !important;
+    }
+
+    .section4 { 
+        height: 520px !important;
+    }
+
+    .fixed-image { 
+        display: none;
+    }
+
+    .responsive-card-image {
+        display: block !important;
+        width: 60% !important;
+        margin-left: 180px !important;
+        margin-right: 20px !important;
+        margin-top: 300px !important;
+    }
+
+    .yeeey-image-container {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: -40px !important;
+    }
+
+    .yeeey-image {
+        margin-top: 80px !important;
+        width: 280px;
+        height: auto;
+    }
+
+    .caixa { 
+        margin-left: 80px !important;
+        width: 80% !important;
     }
 }
