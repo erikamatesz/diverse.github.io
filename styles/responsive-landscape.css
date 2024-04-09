@@ -309,3 +309,14 @@
         margin-right: 20px !important;
     }
 }
+
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+    .responsive-card-image {
+        display: block !important;
+        width: 85% !important;
+        height: 80% !important;
+        margin: 350px 0 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
