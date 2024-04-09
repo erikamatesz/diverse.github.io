@@ -22,21 +22,12 @@
     margin-left: 140px;
 }
 
-@media screen and (min-width: 765px) and (max-width: 879px) {
-    .text-container {
-      font-size: 75px;
-      margin-top: 20px;
-    }
-
-    .text-container p:nth-child(2) {
-        font-size: 114px !important; 
-        margin-top: -50px;
-    }
-  }
-
-.text-container p:nth-child(2) {
-    font-size: 134px;
-    margin-top: -40px;
+.second-line-text p {
+    font-family: 'Orelega One', sans-serif;
+    font-size: 124px;
+    color: #000;
+    margin-left: 140px;
+    margin-top: -30px;
 }
 
 .image-container {
