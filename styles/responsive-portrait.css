@@ -453,14 +453,61 @@
         height: 400px !important;
     }
 }
+@media only screen and (max-width: 680px) and (orientation: portrait) {
 
+    .card-image {
+        width: 480px !important;
+        height: auto;
+        margin-top:520px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+
+    .card-image {
+        width: 480px !important;
+        height: auto;
+        margin-top: 520px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) and (orientation: portrait) {
+
+    .card-image {
+        width: 480px !important;
+        height: auto;
+        margin-top: 520px !important;
+    }
+}
+
+@media only screen and (max-width: 410px) and (orientation: portrait) {
+
+    .card-image {
+        width: 480px !important;
+        height: auto;
+        margin-top: 260px !important;
+    }
+}
+
+@media only screen and (max-width: 310px) and (orientation: portrait) {
+
+    .card-image {
+        width: 480px !important;
+        height: auto;
+        margin-top: 250px !important;
+    }
+}
 
 @media only screen and (max-width: 680px) and (orientation: portrait) {
+    .yellowSection1 {
+        height: 800px !important;
+    }
+   
     .responsive-card-image {
         display: block !important;
         width: 85% !important;
         height: 80% !important;
-        margin: 320px 0 !important;
+        margin: 390px 0 !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
     }
@@ -520,7 +567,7 @@
     .card-image {
         width: 280px !important;
         height: auto;
-        margin-left: 0px !important;
+        margin-left: 20px !important;
     }
     
     .caixa .linha {
@@ -665,7 +712,7 @@
     .card-image {
         width: 300px !important;
         height: auto;
-        margin-left: -20px !important;
+        margin-left: 20px !important;
     }
     
     .caixa .linha {
